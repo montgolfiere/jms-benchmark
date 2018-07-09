@@ -14,9 +14,9 @@ ${ACTIVEMQ_PORT:=61616} \
 ${ACTIVEMQ_TRANSPORT:=tcp} \
 ${ACTIVEMQ_USERNAME:="admin"} \
 ${ACTIVEMQ_PASSWORD:="password"} \
-${ACTIVEMQ_VERSION:=5.8.0} \
+${ACTIVEMQ_VERSION:=5.15.0} \
 ${SERVER_NAME:="activemq-${ACTIVEMQ_VERSION}"} \
-${ACTIVEMQ_DOWNLOAD:="http://archive.apache.org/dist/activemq/apache-activemq/${ACTIVEMQ_VERSION}/apache-activemq-${ACTIVEMQ_VERSION}-bin.tar.gz"}
+${ACTIVEMQ_DOWNLOAD:="https://archive.apache.org/dist/activemq/${ACTIVEMQ_VERSION}/apache-activemq-${ACTIVEMQ_VERSION}-bin.tar.gz"}
 BASEDIR=`dirname "$0"`/.. ; cd "${BASEDIR}" ; BASEDIR=`pwd` ; cd - > /dev/null
 . ${BASEDIR}/bin/benchmark-setup
 #"
